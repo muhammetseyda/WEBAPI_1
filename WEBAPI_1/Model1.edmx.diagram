@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ae0c7e4cee4b4b7ba3c2ea13542da1d9" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_KitapEviModel.Calisanlar" Width="1.5" PointX="5.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Cinsiyetler" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Kategoriler" Width="1.5" PointX="8.5" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Kitaplar" Width="1.5" PointX="10.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Musteriler" Width="1.5" PointX="13" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Satis" Width="1.5" PointX="8.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.tbl_Diller" Width="1.5" PointX="7.5" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.tbl_Il" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.tbl_Ilce" Width="1.5" PointX="3" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.tbl_Ulke" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Unvanlar" Width="1.5" PointX="3" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Yayinevleri" Width="1.5" PointX="10.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Yazarlar" Width="1.5" PointX="13" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.Kullanici" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_KitapEviModel.KullaniciTipi" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Calisanlar_Cinsiyetler" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Calisanlar_tbl_Il" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Calisanlar_tbl_Ilce" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Calisanlar_tbl_Ulke" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Calisanlar_Unvanlar" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Musteriler_Cinsiyetler" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Yazarlar_Cinsiyetler" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Kitaplar_tbl_Diller" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Musteriler_tbl_Il" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Musteriler_tbl_Ilce" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Musteriler_tbl_Ulke" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Satis_tbl_Il" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Satis_tbl_Ilce" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Satis_tbl_Ulke" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_tbl_Ilce_tbl_Il" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.FK_Yazarlar_tbl_Ulke" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.calisanlarDiller" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.KitapCalisanlar" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.KitaplarKategoriler" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.KitaplarMusteriler" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.KitapYazarlar" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.YayinevleriKategoriler" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_KitapEviModel.YazarlarKategoriler" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
