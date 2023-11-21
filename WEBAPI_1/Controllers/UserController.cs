@@ -12,7 +12,7 @@ namespace WEBAPI_1.Controllers
    
 
     public class UserController : ApiController
-    {
+    {   //deneme
         string Name = "Songul";
         int Password = 123;
         private object datalist1;
